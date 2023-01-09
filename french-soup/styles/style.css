@@ -1,9 +1,76 @@
-/*Some necessary adjustments*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;700&display=swap');
+
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+body {
+    margin: 0;
+    font-family: Roboto;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100vh;
+    background-size:cover; 
+    background-position:center center; 
+    background-repeat:no-repeat; 
+    background-image:url('../images/soup.jpg');
+    color: white;
+    
+}
+
+header h1 {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 5rem;
+}
+
+section {
+    width:60%;
+    margin: 0 auto;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro p {
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+
+section img {
+    padding: 2rem 25%;
+    border-bottom: 1px solid black;
+}
+
+section h2 {
+    align-self: flex-start;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+section ul {
+    align-self: flex-start;
+    list-style: none;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+
+.directions {
+    margin-bottom: 5rem;
 }
